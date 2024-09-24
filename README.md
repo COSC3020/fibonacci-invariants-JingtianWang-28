@@ -27,3 +27,9 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+
+/////
+if (n < fibArray.length)// indicates that the array already contains the required length of the Fibonacci sequence
+Each recursive call will use the last two elements as a new array and maintain the invariant for the next recursion
+Therefore, the state of fibarray is always correct and the invariant is guaranteed to hold until the next call
