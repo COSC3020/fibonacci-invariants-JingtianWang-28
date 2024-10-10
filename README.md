@@ -43,3 +43,13 @@ Therefore, the state of fibarray is always correct and the invariant is guarante
 Because fibArray is correct, the next valid value will be appended on the correct basis
 
 if (n < fibArray.length)//Contains the correct Fibonacci number from 0 to n.
+
+
+
+
+https://cs.stackexchange.com/questions/88145/proving-correctness-of-an-iterative-fibonacci-algorithm
+https://math.stackexchange.com/questions/2676262/proof-of-correctness-loop-invariant-for-fibonacci-numbers
+
+Sources: chatgept provide me with ideas for proof methods. And complete the assignment through the examples and theorems on the above website.
+
+Plagiarism Statement: “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
