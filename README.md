@@ -30,6 +30,16 @@ your answer to this markdown file.
 
 
 /////
-if (n < fibArray.length)// indicates that the array already contains the required length of the Fibonacci sequence
-Each recursive call will use the last two elements as a new array and maintain the invariant for the next recursion
+fibArray contains the correct Fibonacci numbers from index 0 to fibArray.length - 1
+
+fibArray is initialized to [0, 1] and the invariant is true before the first call
+
+After each recursive call, a new value is added to fibArray
+
+Each recursive call uses the last two elements as a new array and maintains the invariant for the next recursion
+
 Therefore, the state of fibarray is always correct and the invariant is guaranteed to hold until the next call
+
+Because fibArray is correct, the next valid value will be appended on the correct basis
+
+if (n < fibArray.length)//Contains the correct Fibonacci number from 0 to n.
