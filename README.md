@@ -32,7 +32,7 @@ your answer to this markdown file.
 /////
 fibArray is initialized to [0, 1], and the invariant is true before the first call
 
-The invariant fibArray holds all the Fibonacci numbers
+The invariant fibArray stores the Fibonacci element n-1, n-2 when the recursive calls
 
 After calculating length - 1 + length - 2
 
