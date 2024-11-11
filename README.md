@@ -30,24 +30,9 @@ your answer to this markdown file.
 
 
 /////
-fibArray is initialized to [0, 1], and the invariant is true before the first call
-
-The invariant fibArray stores the Fibonacci element n-1, n-2 when the recursive calls
-
-After calculating length - 1 + length - 2
-
-After each recursive call, a new value is added to fibArray
-
-The length of fibArray increases by 1, and fibArray contains the correct Fibonacci numbers n-1, n-2 from index 0 to fibArray.length - 1
-
-Each recursive call uses the last two elements as a new array and maintains the invariant for the next recursion
-
-So the state of fibarray is always correct and the invariant is guaranteed to hold until the next call
-
-Because fibArray is correct, the next valid value will be appended on the correct basis
-
-if (n < fibArray.length)//Contains the correct Fibonacci sequence from 0 to n.
-
+The invariant is that n >= fibArray.length, up to the Fibonacci number fibArray.length - 1.
+In each recursive call, fibArray contains the Fibonacci numbers from index n = 0 to fibArray.length - 1.
+If , the function simply returns , which is correct in the invariant because it already contains the Fibonacci numbers until n < fibArray.length fibArray.slice(0, n + 1)
 
 
 
