@@ -30,8 +30,11 @@ your answer to this markdown file.
 
 
 /////
+
 The invariant is that n >= fibArray.length, up to the Fibonacci number fibArray.length - 1.
+
 In each recursive call, fibArray contains the Fibonacci numbers from index n = 0 to fibArray.length - 1.
+
 If , the function simply returns , which is correct in the invariant because it already contains the Fibonacci numbers until n < fibArray.length fibArray.slice(0, n + 1)
 
 
